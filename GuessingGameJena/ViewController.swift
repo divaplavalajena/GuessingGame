@@ -10,6 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var numOfFingersTextField: UITextField!
+    
+    @IBOutlet weak var guessedFingersLabel: UILabel!
+    
+   
+    
+    @IBAction func guessButton(sender: AnyObject) {
+        
+        let numFingers = String(arc4random_uniform(6))
+        
+        if numFingers == numOfFingersTextField.text {
+            guessedFingersLabel.text = "You guessed right!"
+            
+        } else {
+            guessedFingersLabel.text = "You guessed wrong! \(numFingers) is correct!"
+        }
+        
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
