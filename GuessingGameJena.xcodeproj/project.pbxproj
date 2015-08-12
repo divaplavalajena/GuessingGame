@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CBA51D31B7BE590000AEC73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA51D21B7BE590000AEC73 /* AppDelegate.swift */; };
+		9CBA51D51B7BE590000AEC73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA51D41B7BE590000AEC73 /* ViewController.swift */; };
+		9CBA51D81B7BE591000AEC73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBA51D61B7BE591000AEC73 /* Main.storyboard */; };
+		9CBA51DA1B7BE591000AEC73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBA51D91B7BE591000AEC73 /* Assets.xcassets */; };
+		9CBA51DD1B7BE591000AEC73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBA51DB1B7BE591000AEC73 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CBA51CF1B7BE590000AEC73 /* GuessingGameJena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingGameJena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBA51D21B7BE590000AEC73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CBA51D41B7BE590000AEC73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CBA51D71B7BE591000AEC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CBA51D91B7BE591000AEC73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CBA51DC1B7BE591000AEC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CBA51DE1B7BE591000AEC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CBA51CC1B7BE590000AEC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CBA51C61B7BE590000AEC73 = {
+			isa = PBXGroup;
+			children = (
+				9CBA51D11B7BE590000AEC73 /* GuessingGameJena */,
+				9CBA51D01B7BE590000AEC73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CBA51D01B7BE590000AEC73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CBA51CF1B7BE590000AEC73 /* GuessingGameJena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CBA51D11B7BE590000AEC73 /* GuessingGameJena */ = {
+			isa = PBXGroup;
+			children = (
+				9CBA51D21B7BE590000AEC73 /* AppDelegate.swift */,
+				9CBA51D41B7BE590000AEC73 /* ViewController.swift */,
+				9CBA51D61B7BE591000AEC73 /* Main.storyboard */,
+				9CBA51D91B7BE591000AEC73 /* Assets.xcassets */,
+				9CBA51DB1B7BE591000AEC73 /* LaunchScreen.storyboard */,
+				9CBA51DE1B7BE591000AEC73 /* Info.plist */,
+			);
+			path = GuessingGameJena;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CBA51CE1B7BE590000AEC73 /* GuessingGameJena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CBA51E11B7BE591000AEC73 /* Build configuration list for PBXNativeTarget "GuessingGameJena" */;
+			buildPhases = (
+				9CBA51CB1B7BE590000AEC73 /* Sources */,
+				9CBA51CC1B7BE590000AEC73 /* Frameworks */,
+				9CBA51CD1B7BE590000AEC73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessingGameJena;
+			productName = GuessingGameJena;
+			productReference = 9CBA51CF1B7BE590000AEC73 /* GuessingGameJena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CBA51C71B7BE590000AEC73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bella Voce Productions";
+				TargetAttributes = {
+					9CBA51CE1B7BE590000AEC73 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 9CBA51CA1B7BE590000AEC73 /* Build configuration list for PBXProject "GuessingGameJena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CBA51C61B7BE590000AEC73;
+			productRefGroup = 9CBA51D01B7BE590000AEC73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CBA51CE1B7BE590000AEC73 /* GuessingGameJena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CBA51CD1B7BE590000AEC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBA51DD1B7BE591000AEC73 /* LaunchScreen.storyboard in Resources */,
+				9CBA51DA1B7BE591000AEC73 /* Assets.xcassets in Resources */,
+				9CBA51D81B7BE591000AEC73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CBA51CB1B7BE590000AEC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBA51D51B7BE590000AEC73 /* ViewController.swift in Sources */,
+				9CBA51D31B7BE590000AEC73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CBA51D61B7BE591000AEC73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CBA51D71B7BE591000AEC73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CBA51DB1B7BE591000AEC73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CBA51DC1B7BE591000AEC73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CBA51DF1B7BE591000AEC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CBA51E01B7BE591000AEC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CBA51E21B7BE591000AEC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuessingGameJena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellavoceproductions.GuessingGameJena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CBA51E31B7BE591000AEC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuessingGameJena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellavoceproductions.GuessingGameJena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CBA51CA1B7BE590000AEC73 /* Build configuration list for PBXProject "GuessingGameJena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBA51DF1B7BE591000AEC73 /* Debug */,
+				9CBA51E01B7BE591000AEC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CBA51E11B7BE591000AEC73 /* Build configuration list for PBXNativeTarget "GuessingGameJena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBA51E21B7BE591000AEC73 /* Debug */,
+				9CBA51E31B7BE591000AEC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CBA51C71B7BE590000AEC73 /* Project object */;
+}
