@@ -12,6 +12,7 @@
 		9CBA51D81B7BE591000AEC73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBA51D61B7BE591000AEC73 /* Main.storyboard */; };
 		9CBA51DA1B7BE591000AEC73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBA51D91B7BE591000AEC73 /* Assets.xcassets */; };
 		9CBA51DD1B7BE591000AEC73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBA51DB1B7BE591000AEC73 /* LaunchScreen.storyboard */; };
+		9CBA51E51B7BF5E7000AEC73 /* jim-jim-parsons-32280060-500-600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CBA51E41B7BF5E7000AEC73 /* jim-jim-parsons-32280060-500-600.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9CBA51D91B7BE591000AEC73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CBA51DC1B7BE591000AEC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CBA51DE1B7BE591000AEC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBA51E41B7BF5E7000AEC73 /* jim-jim-parsons-32280060-500-600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jim-jim-parsons-32280060-500-600.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				9CBA51D21B7BE590000AEC73 /* AppDelegate.swift */,
 				9CBA51D41B7BE590000AEC73 /* ViewController.swift */,
+				9CBA51E41B7BF5E7000AEC73 /* jim-jim-parsons-32280060-500-600.jpg */,
 				9CBA51D61B7BE591000AEC73 /* Main.storyboard */,
 				9CBA51D91B7BE591000AEC73 /* Assets.xcassets */,
 				9CBA51DB1B7BE591000AEC73 /* LaunchScreen.storyboard */,
@@ -123,6 +126,7 @@
 			files = (
 				9CBA51DD1B7BE591000AEC73 /* LaunchScreen.storyboard in Resources */,
 				9CBA51DA1B7BE591000AEC73 /* Assets.xcassets in Resources */,
+				9CBA51E51B7BF5E7000AEC73 /* jim-jim-parsons-32280060-500-600.jpg in Resources */,
 				9CBA51D81B7BE591000AEC73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
